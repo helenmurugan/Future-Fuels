@@ -85,3 +85,15 @@ body {
 
     position: absolute;
 }
+
+/* Middle section */
+
+#mid-section {
+    background-color:  rgba(107, 142, 35, .5);
+}
+
+div > h2 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
