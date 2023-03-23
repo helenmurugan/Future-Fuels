@@ -90,10 +90,18 @@ body {
 
 #mid-section {
     background-color:  rgba(107, 142, 35, .5);
+    
 }
 
-div > h2 {
+#mid-section > h2 {
     text-align: center;
     text-transform: capitalize;
-    font-size: 2rem;
+}
+
+#mid-section > p {
+    width: 60%;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    line-height: 30px;
 }
