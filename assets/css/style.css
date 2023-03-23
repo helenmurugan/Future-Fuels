@@ -42,3 +42,11 @@ body {
     text-decoration: none;
     color: inherit;
 }
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
