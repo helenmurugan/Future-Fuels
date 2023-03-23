@@ -28,8 +28,17 @@ body {
     letter-spacing: 4px;
 }
 
+#menu, #logo {
+    line-height: 75px;
+}
+
 #menu li {
     float: right;
     margin-right: 30px;
     list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
 }
