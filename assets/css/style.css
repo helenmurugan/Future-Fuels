@@ -8,7 +8,7 @@
 
 body {
     font-family: Montserrat, sans-serif, Arial;
-    background-color: blanchedalmond;
+    background-color: rgb(233, 233, 222);
 }
 
 
@@ -45,8 +45,7 @@ body {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid olivedrab;
-    color: olivedrab;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .active {
