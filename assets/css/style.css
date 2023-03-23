@@ -6,6 +6,13 @@
     border: none;
 }
 
-h1 {
+
+/* headings and logo */
+
+#logo {
     font-family: MuseoModerno, Montserrat, Arial;
+    letter-spacing: 4px;
+    color: green;
+    float: left;
+    font-size: 280%;
 }
