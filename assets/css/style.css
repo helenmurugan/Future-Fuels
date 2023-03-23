@@ -16,7 +16,7 @@ body {
 #logo {
     font-family: MuseoModerno, Montserrat, Arial;
     letter-spacing: 4px;
-    color: green;
+    color: olivedrab;
     float: left;
     font-size: 280%;
 }
@@ -57,6 +57,9 @@ body {
     height: 600px;
     width: 100%;
     background: url('../images/landing-image.jpg') no-repeat center center;
+    overflow: hidden;
+
+    position: relative;
 }
 
 #cover-text {
@@ -74,7 +77,10 @@ body {
     padding-top: 40px;
     padding-left: 10px;
 
-   border-radius: 10%;
+    border-radius: 15%;
 
-    
+    bottom: 350px;
+    right: 200px;
+
+    position: absolute;
 }
