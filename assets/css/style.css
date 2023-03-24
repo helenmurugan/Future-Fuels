@@ -60,7 +60,7 @@ body {
     background: url('../images/landing-image.jpg') no-repeat center center;
     overflow: hidden;
 
-    position: relative;
+    position: relative
 }
 
 #cover-text {
@@ -80,10 +80,10 @@ body {
 
     border-radius: 15%;
 
-    bottom: 350px;
+    bottom: 75px;
     right: 200px;
-
-    position: absolute;
+    
+    position: absolute
 }
 
 /* Middle section */
