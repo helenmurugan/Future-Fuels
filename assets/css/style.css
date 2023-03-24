@@ -20,6 +20,7 @@ body {
     color: olivedrab;
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -90,18 +91,19 @@ body {
 
 #mid-section {
     background-color:  rgba(107, 142, 35, .5);
-    
+    padding: 30px;
 }
 
-#mid-section > h2 {
+#mid-section h2 {
     text-align: center;
     text-transform: capitalize;
 }
 
-#mid-section > p {
+#mid-section p {
     width: 60%;
-    text-align: center;
-    font-size: 1.2rem;
+    text-align: justify;
+    font-size: 20px;
     margin: 0 auto;
     line-height: 30px;
+    
 }
