@@ -105,5 +105,25 @@ body {
     font-size: 20px;
     margin: 0 auto;
     line-height: 30px;
-    
+    padding-bottom: 30px;
 }
+
+/* Good Fuel section */
+
+#good-fuel {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#good-fuel div {
+    color: #3a3a3a;
+    width: 33%;
+    height: 150px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Footer */
+
