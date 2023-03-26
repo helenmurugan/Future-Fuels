@@ -173,10 +173,11 @@ footer {
 /*img-box*/
 .img-box {
     height: 300px;
-    width: 30%;
+    width: 25%;
     float: right;
     box-sizing: border-box;
     margin-right: 10%;
+    background-color: violet;
 }
 
 img {
@@ -188,11 +189,12 @@ img {
 .pros-box {
     float: left;
     margin-left: 10%;
+    background-color: red;
 }
 
 .list-box {
-    height: 310px;
-    width: 30%;
+    height: 300px;
+    width: 25%;
     padding: 0%;
     box-sizing: border-box;
     line-height: 250%;
@@ -204,6 +206,7 @@ img {
 
 .cons-box {
     margin: 0 auto;
+    background-color: blue;
 }
 
 
