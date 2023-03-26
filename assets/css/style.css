@@ -11,9 +11,11 @@ body {
     background-color: rgb(233, 233, 222);
 }
 
+header {
+    height: 75px;
+}
 
 /* logo */
-
 #logo {
     font-family: MuseoModerno, Montserrat, Arial;
     letter-spacing: 4px;
@@ -24,7 +26,6 @@ body {
 }
 
 /* nav links */
-
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
@@ -59,7 +60,6 @@ body {
 }
 
 /* landing image section */
-
 #landing-image {
     height: 600px;
     width: 100%;
@@ -92,7 +92,6 @@ body {
 }
 
 /* middle section */
-
 #mid-section {
     padding: 30px;
 }
@@ -112,7 +111,6 @@ body {
 }
 
 /* good fuel icons section */
-
 #good-fuel {
     width: 80%;
     height: 300px;
@@ -153,4 +151,34 @@ footer {
     color: #3a3a3a;
 }
 
+/*title bar*/
+.title-bar {
+    color: white;
+    background-color: rgba(107, 142, 35, .5);
+    padding: 1%;
+   }
+
+.title-bar h1 {
+    margin-left: 10%;
+}
+
+/*text-box*/
+.text-box {
+    background-color: red;
+}
+
+/*pros-box*/
+.pros-box {
+    background-color: white;
+}
+
+/*cons-box*/
+.cons-box {
+    background-color: blue;
+}
+
+/*img-box*/
+.img-box {
+    background-color: violet;
+}
 
