@@ -185,24 +185,19 @@ footer {
     box-sizing: border-box;
 }
 
-/*pros-box*/
-.pros-box {
-    background-color: white;
+/*list-box*/
+.list-box {
+    /* background-color: white; */
     height: 300px;
     width: 20%;
     margin: 0 auto;
-    padding: 2%;
+    padding: 2.5%;
     box-sizing: border-box;
+    line-height: 250%;
 }
 
-/*cons-box*/
-.cons-box {
-    background-color: blue;
-    height: 300px;
-    width: 20%;
-    margin: 0 auto;
-    padding: 2%;
-    box-sizing: border-box;
+.list-box li{
+    list-style-type: none;
 }
 
 
