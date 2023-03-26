@@ -159,26 +159,50 @@ footer {
    }
 
 .title-bar h1 {
-    margin-left: 10%;
+    margin-left: 13%;
 }
 
 /*text-box*/
 .text-box {
     background-color: red;
-}
-
-/*pros-box*/
-.pros-box {
-    background-color: white;
-}
-
-/*cons-box*/
-.cons-box {
-    background-color: blue;
+    height: 600px;
+    width: 30%;
+    float: left;
+    padding: 1%;
+    box-sizing: border-box;
+    margin-left: 10%;
 }
 
 /*img-box*/
 .img-box {
     background-color: violet;
+    height: 600px;
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+    padding: 1%;
+    box-sizing: border-box;
 }
+
+/*pros-box*/
+.pros-box {
+    background-color: white;
+    height: 300px;
+    width: 20%;
+    margin: 0 auto;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+/*cons-box*/
+.cons-box {
+    background-color: blue;
+    height: 300px;
+    width: 20%;
+    margin: 0 auto;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+
 
