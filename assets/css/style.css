@@ -35,8 +35,12 @@ body {
     line-height: 75px;
 }
 
-#menu li {
+#menu ul{
     float: right;
+}
+
+#menu li {
+    float: left;
     margin-right: 30px;
     list-style-type: none;
 }
