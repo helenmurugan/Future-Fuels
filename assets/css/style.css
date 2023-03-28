@@ -13,6 +13,7 @@ body {
 
 header {
     height: 75px;
+   
 }
 
 /* logo */
@@ -211,6 +212,7 @@ img {
 
 /*sign up page*/
 #sign-up {
+    color: #3a3a3a;
     margin-left: 10%;
 }
 
