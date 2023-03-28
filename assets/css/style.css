@@ -13,7 +13,6 @@ body {
 
 header {
     height: 75px;
-   
 }
 
 /* logo */
@@ -89,12 +88,13 @@ header {
     bottom: 75px;
     right: 200px;
     
-    position: absolute
+    position: absolute;
 }
 
 /* middle section */
 #mid-section {
     padding: 30px;
+
 }
 
 #mid-section h2 {
@@ -103,8 +103,8 @@ header {
 }
 
 #mid-section p {
-    width: 80%;
-    text-align: justify;
+    width: 50%;
+    /* text-align: justify; */
     font-size: 20px;
     margin: 0 auto;
     line-height: 30px;
@@ -113,7 +113,7 @@ header {
 
 /* good fuel icons section */
 #good-fuel {
-    width: 80%;
+    width: 50%;
     height: 300px;
     margin: 0 auto;
 }
@@ -123,13 +123,22 @@ header {
     width: 33%;
     height: 150px;
     float: left;
-    
     text-align: center;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 #good-fuel i {
-    color:rgb(107, 142, 35)
+    color:rgb(107, 142, 35);
+    font-size: 200%;
+}
+
+#last-section p {
+    width: 50%;
+    /* text-align: justify; */
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 30px;
+    padding-bottom: 30px;
 }
 
 /*footer*/
