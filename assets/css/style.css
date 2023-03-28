@@ -15,6 +15,10 @@ header {
     height: 75px;
 }
 
+.center-text {
+    text-align: center;
+}
+
 /* logo */
 #logo {
     font-family: MuseoModerno, Montserrat, Arial;
@@ -75,7 +79,6 @@ header {
     font-size: 130%;
     font-family: Montserrat, sans-serif, Arial;;
     letter-spacing: 4px;
-    text-align: center;
 
     width: 500px;
     height: 150px;
@@ -94,17 +97,10 @@ header {
 /* middle section */
 #mid-section {
     padding: 30px;
-
 }
 
-#mid-section h2 {
-    text-align: center;
-    text-transform: capitalize;
-}
-
-#mid-section p {
+.paragraphs {
     width: 50%;
-    /* text-align: justify; */
     font-size: 20px;
     margin: 0 auto;
     line-height: 30px;
@@ -123,8 +119,6 @@ header {
     width: 33%;
     height: 150px;
     float: left;
-    text-align: center;
-    /* box-sizing: border-box; */
 }
 
 #good-fuel i {
@@ -132,22 +126,9 @@ header {
     font-size: 200%;
 }
 
-#last-section p {
-    width: 50%;
-    /* text-align: justify; */
-    font-size: 20px;
-    margin: 0 auto;
-    line-height: 30px;
-    padding-bottom: 30px;
-}
-
 /*footer*/
 footer {
     background-color: rgba(107, 142, 35, .5);
-}
-
-.social-networks {
-    text-align: center;
 }
 
 .social-networks > li {
