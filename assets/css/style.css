@@ -209,5 +209,26 @@ img {
     /* background-color: blue; */
 }
 
+/*sign up page*/
+#sign-up {
+    margin-left: 10%;
+}
 
+#sign-up h3 {
+    line-height: 300%;
+}
+
+input {
+    border-radius: 5px;
+    font-size: 110%
+}
+
+#submit {
+    background-color: #3a3a3a;
+	color: white;
+    font-size: 110%;
+	border-radius: 5px;
+    margin: 0.75rem;
+	padding: 0.75rem;
+}
 
