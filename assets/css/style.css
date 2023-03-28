@@ -218,9 +218,11 @@ img {
     line-height: 300%;
 }
 
-input {
+.input {
     border-radius: 5px;
-    font-size: 110%
+    height: 20px;
+    font-size: 15px;
+    padding: 3px 3px;
 }
 
 #submit {
