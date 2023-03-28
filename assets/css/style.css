@@ -19,6 +19,14 @@ header {
     text-align: center;
 }
 
+.width50 {
+    width: 50%;
+}
+
+.margin-auto {
+    margin: 0 auto;
+}
+
 /* logo */
 #logo {
     font-family: MuseoModerno, Montserrat, Arial;
@@ -100,18 +108,14 @@ header {
 }
 
 .paragraphs {
-    width: 50%;
     font-size: 20px;
-    margin: 0 auto;
     line-height: 30px;
     padding-bottom: 30px;
 }
 
 /* good fuel icons section */
 #good-fuel {
-    width: 50%;
     height: 300px;
-    margin: 0 auto;
 }
 
 #good-fuel div {
