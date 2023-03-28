@@ -131,9 +131,9 @@ header {
     color:rgb(107, 142, 35)
 }
 
-/*footer */
+/*footer*/
 footer {
-    background-color: rgba(107, 142, 35, .5)
+    background-color: rgba(107, 142, 35, .5);
 }
 
 .social-networks {
@@ -151,6 +151,7 @@ footer {
     color: #3a3a3a;
 }
 
+/*road / air / water pages*/
 /*title bar*/
 .title-bar {
     color: white;
