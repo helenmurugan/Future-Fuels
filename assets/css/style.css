@@ -167,10 +167,11 @@ footer {
     /* box-sizing: border-box; */
     /* margin-right: 10%; */ */
     /* background-color: violet; */
+    text-align: center;
 }
 
 img {
-    width: 100%;
+    width: 60%;
     border-radius: 20px;
 
 }
