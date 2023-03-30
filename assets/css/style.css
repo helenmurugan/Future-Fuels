@@ -110,7 +110,7 @@ p {
     flex-direction: column;
 }
 
-.flex-box {
+.fuels-flex-box {
     display: flex;
     flex-wrap: wrap;
 }
@@ -147,7 +147,7 @@ footer {
     color: #3a3a3a;
 }
 
-/*road / air / water pages*/
+/*batteries / biofuels / hydrogen pages*/
 /*title bar*/
 .title-bar {
     color: white;
@@ -177,22 +177,30 @@ img {
 }
 
 /*list boxes*/
-.pros-box {
-    float: left;
-    margin-left: 10%;
-    /* background-color: red; */
+.list-flex-box{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+    
 }
 
 .list-box {
-    height: 300px;
-    width: 25%;
-    padding-left: 2%;
+    height: 400px;
+    width: 50%;
+    padding: 25px;
     box-sizing: border-box;
     line-height: 250%;
 }
 
 .list-box li{
     list-style-type: none;
+}
+
+.pros-box {
+    float: left; */
+    margin-left: 0 auto;
+    /* background-color: red; */
 }
 
 .cons-box {
