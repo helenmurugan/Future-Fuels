@@ -8,7 +8,7 @@
 
 body {
     font-family: Montserrat, sans-serif, Arial;
-    background-color: rgb(233, 233, 222);
+    /* background-color: rgb(233, 233, 222); */
 }
 
 header {
@@ -25,6 +25,10 @@ header {
 
 .padding25 {
     padding: 25px;
+}
+
+.padding50 {
+    padding: 50px;
 }
 
 .margin-auto {
@@ -160,19 +164,9 @@ footer {
     font-size: 350%;
 }
 
-/*img-box*/
-.img-box {
-    /* height: 300px;
-    width: 25%;
-    float: right;
-    /* box-sizing: border-box; */
-    /* margin-right: 10%; */ */
-    /* background-color: violet; */
-    text-align: center;
-}
-
+/*image*/
 img {
-    width: 60%;
+    width: 80%;
     border-radius: 20px;
 }
 
@@ -190,16 +184,13 @@ img {
 }
 
 .list-box {
-    /* height: 300px; */
     width: 100%;
-    /* padding: 25px; */
     box-sizing: border-box;
     font-size: 20px;
     line-height: 30px;
-    background-color:rgba(199, 209, 179, 0.5);
+    background-color:rgba(237, 248, 218, 0.5);
     border-radius: 20px;
     margin-top: 25px;
-    margin-bottom: 25px;
 }
 
 .list-box li{
@@ -207,16 +198,16 @@ img {
     padding: 5px;
 }
 
-.pros-box {
-    float: left;
-    margin-left: 0 auto;
-    /* background-color: red; */
+.pros-box i {
+    color: green;
 }
 
 .cons-box {
-    margin: 0 auto;
     margin-bottom: 25px;
-    /* background-color: blue; */
+}
+
+.cons-box i {
+    color: red;
 }
 
 /*sign up page*/
