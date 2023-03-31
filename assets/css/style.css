@@ -177,25 +177,29 @@ img {
 }
 
 #fun-fact {
-    background-color: yellowgreen;
+    background-color: rgb(217, 126, 15);
 }
 
 /*list boxes*/
 .list-flex-box{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     width: 50%;
     margin: 0 auto;
     
 }
 
 .list-box {
-    height: 450px;
-    width: 50%;
-    padding: 25px;
+    /* height: 300px; */
+    width: 100%;
+    /* padding: 25px; */
     box-sizing: border-box;
     font-size: 20px;
     line-height: 30px;
+    background-color:rgba(199, 209, 179, 0.5);
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .list-box li{
@@ -204,13 +208,14 @@ img {
 }
 
 .pros-box {
-    float: left; */
+    float: left;
     margin-left: 0 auto;
     /* background-color: red; */
 }
 
 .cons-box {
     margin: 0 auto;
+    margin-bottom: 25px;
     /* background-color: blue; */
 }
 
