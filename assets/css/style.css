@@ -214,27 +214,21 @@ img {
     line-height: 300%;
 }
 
-.input {
+.border {
     border: 1px solid #3a3a3a;
     border-radius: 5px;
-
-    height: 20px;
     width: 300px;
-
     padding: 5px 5px;
     margin-bottom: 0.75rem;
 }
 
+.input {
+    height: 20px;
+}
+
 .message {
-    border: 1px solid #3a3a3a;
-    border-radius: 5px;
     font-family: Montserrat, sans-serif, Arial;
-
     height: 150px;
-    width: 300px;
-
-    padding: 5px 5px;
-    margin-bottom: 0.75rem;
 }
 
 #submit {
