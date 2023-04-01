@@ -222,7 +222,17 @@ img {
 
     padding: 5px 5px;
     margin-bottom: 0.75rem;
-   
+}
+
+.message {
+    border: 1px solid #3a3a3a;
+    border-radius: 5px;
+
+    height: 150px;
+    width: 300px;
+
+    padding: 5px 5px;
+    margin-bottom: 0.75rem;
 }
 
 #submit {
