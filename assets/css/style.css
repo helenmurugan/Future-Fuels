@@ -27,7 +27,7 @@ header {
 }
 
 .padding50 {
-    padding: 50px;
+    padding: 50px 25px 25px;
 }
 
 .margin-auto {
@@ -132,6 +132,8 @@ p {
 
 #end-user {
     width: 100%;
+    padding: 25px 25px 50px;
+    box-sizing: border-box;
 }
 
 /*footer*/
