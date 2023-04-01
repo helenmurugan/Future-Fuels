@@ -196,9 +196,9 @@ img {
     list-style-type: none;
 }
 
-.pros-box {
-    margin-top: 50px;
-}
+/* .pros-box {
+    margin-top: 25px;
+} */
 
 .pros-box i {
     color: green;
