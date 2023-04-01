@@ -8,7 +8,6 @@
 
 body {
     font-family: Montserrat, sans-serif, Arial;
-    /* background-color: rgb(233, 233, 222); */
 }
 
 header {
@@ -94,7 +93,7 @@ header {
     letter-spacing: 4px;
 
     width: 500px;
-    height: 125px;
+    height: 150px;
     border-radius: 20px;
 
     bottom: 75px;
@@ -227,6 +226,7 @@ img {
 .message {
     border: 1px solid #3a3a3a;
     border-radius: 5px;
+    font-family: Montserrat, sans-serif, Arial;
 
     height: 150px;
     width: 300px;
