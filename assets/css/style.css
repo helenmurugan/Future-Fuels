@@ -48,7 +48,7 @@ header {
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
-    margin-right: 10%
+    margin-right: 10%;
 }
 
 #menu, #logo {
@@ -107,8 +107,8 @@ p {
     line-height: 30px;
 }
 
-/* good fuel icons section */
-#good-fuel {
+/* requirements section */
+#requirements {
     display: flex;
     flex-direction: column;
 }
@@ -125,7 +125,7 @@ p {
     box-sizing: border-box;
 }
 
-#good-fuel i {
+#requirements i {
     color:rgb(107, 142, 35);
     font-size: 200%;
 }
@@ -195,10 +195,6 @@ img {
 .list-box li{
     list-style-type: none;
 }
-
-/* .pros-box {
-    margin-top: 25px;
-} */
 
 .pros-box i {
     color: green;
