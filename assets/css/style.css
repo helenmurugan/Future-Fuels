@@ -246,8 +246,8 @@ img {
 
 /*media queries*/
 /*tablets and screen size from 1350px and down*/
-@ media screen and (max-width: 1350px) {
-     {width: 90%;
+@media screen and (max-width: 1300px) {
+     .width65 {width: 65%;
     }
 } 
 
