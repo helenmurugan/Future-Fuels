@@ -247,8 +247,11 @@ img {
 /*media queries*/
 /*tablets and screen size from 1300px and down*/
 @media screen and (max-width: 1300px) {
-     .width65 {
+    .width65 {
         width: 65%;
+    }
+    #hide-menu {
+        display: none;
     }
 } 
 /* /* 
@@ -294,7 +297,7 @@ img {
     
     } */
      */ */
-     
+
 /* Hamburger */
 .hamburger {
     position: fixed;
