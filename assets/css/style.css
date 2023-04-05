@@ -307,7 +307,7 @@ img {
     right: 1rem;
   }
   
-  .hammenu {
+  .ham-menu {
     position: fixed;
     /* give the menu a larger z-index than the ham link
     to put the menu above it */
@@ -338,7 +338,7 @@ img {
     right: 1rem;
   }
 
-  .hammenu:target {
+  .ham-menu:target {
     /* show menu */
     transform: translateY(0);
   }
