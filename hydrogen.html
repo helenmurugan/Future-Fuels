@@ -8,8 +8,10 @@
     <meta name="keywords" content="future fuel, battery, biofuel, hydrogen">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Future Fuels</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="icon" type="image/jpeg" sizes="16x16" href="/assets/images/favicon-16x16.jpeg">
+    <title>Future Fuels</title>
+   
 </head>
 <body>
     <header>
@@ -18,7 +20,7 @@
             <h1 id="logo">Future Fuels</h1>
         </a>
         <nav id="menu">
-            <ul>
+            <ul id="hide-menu">
                 <li>
                     <a href="index.html">Home</a>
                 </li>
@@ -36,6 +38,23 @@
                 </li>
             </ul>
         </nav>
+        <ul class="ham-menu" id="ham-menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="batteries.html">Batteries</a></li>
+            <li><a href="biofuels.html">Biofuels</a></li>
+            <li><a href="hydrogen.html">Hydrogen</a></li>
+            <li><a href="sign-up.html">Sign Up</a></li>
+            <a class="close" href="#">
+            <span class="material-icons">
+              close
+            </span>
+            </a>
+        </ul>
+        <a class="hamburger" href="#ham-menu">
+            <span class="material-icons">
+              menu
+            </span>
+        </a>
         <!-- nav bar -->
     </header>
 
@@ -47,13 +66,13 @@
     <!--title bar and main headline-->
 
     <!--image-->
-    <div class="width50 margin-auto padding25 center-text width65">
+    <div class="width50 margin-auto padding25 center-text width80">
         <img src="assets/images/H2-truck.jpeg" alt="truck being refuelled at a hydrogen refuelling station">
     </div>
     <!--image-->
     
     <!--main section-->
-    <main class="width50 margin-auto padding25 width65">
+    <main class="width50 margin-auto padding25 width80">
         <p class="first-p">
             Hydrogen vehicles are powered by a fuel cell which converts hydrogen directly into electricity. As the fuel contains no carbon, there are no harmful emissions from the exhaust - in fact there is only water. 
         </p>
@@ -64,7 +83,7 @@
      <!--main section-->
     
     <!--pros and cons section-->
-    <section class="width50 margin-auto width65">
+    <section class="width50 margin-auto width80">
         <div class="list-box pros-box">
             <ul>
                 <li><i class="fa-regular fa-circle-check" aria-label="green tick sign"></i> Suitable for small and large road vehicles.</li>

@@ -254,8 +254,8 @@ img {
 
 /*screens 1299px and below*/
 @media screen and (max-width: 1299px) {
-    .width65 {
-        width: 65%;
+    .width80 {
+        width: 80%;
     }
     #hide-menu {
         display: none;

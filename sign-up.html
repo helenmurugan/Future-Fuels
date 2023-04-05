@@ -8,8 +8,10 @@
     <meta name="keywords" content="future fuel, battery, biofuel, hydrogen">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Future Fuels</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="icon" type="image/jpeg" sizes="16x16" href="/assets/images/favicon-16x16.jpeg">
+    <title>Future Fuels</title>
+    
 </head>
 <body>
     <header>
@@ -18,7 +20,7 @@
             <h1 id="logo">Future Fuels</h1>
         </a>
         <nav id="menu">
-            <ul>
+            <ul id="hide-menu">
                 <li>
                     <a href="index.html">Home</a>
                 </li>
@@ -36,6 +38,23 @@
                 </li>
             </ul>
         </nav>
+        <ul class="ham-menu" id="ham-menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="batteries.html">Batteries</a></li>
+            <li><a href="biofuels.html">Biofuels</a></li>
+            <li><a href="hydrogen.html">Hydrogen</a></li>
+            <li><a href="sign-up.html">Sign Up</a></li>
+            <a class="close" href="#">
+            <span class="material-icons">
+              close
+            </span>
+            </a>
+        </ul>
+        <a class="hamburger" href="#ham-menu">
+            <span class="material-icons">
+              menu
+            </span>
+        </a>
         <!-- nav bar -->
     </header>
 
