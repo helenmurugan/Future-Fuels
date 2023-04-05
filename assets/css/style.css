@@ -245,8 +245,15 @@ img {
 }
 
 /*media queries*/
-/*tablets and screen size from 1300px and down*/
-@media screen and (max-width: 1300px) {
+/*screens 1300px and above*/
+@media screen and (min-width: 1300px) {
+    .hamburger {
+        display: none;
+    }
+} 
+
+/*screens 1299px and below*/
+@media screen and (max-width: 1299px) {
     .width65 {
         width: 65%;
     }
@@ -254,49 +261,6 @@ img {
         display: none;
     }
 } 
-/* /* 
-/*RESPONSIVE NAVBAR MENU STARTS*/
-/* CHECKBOX HACK */
-
-/* input[type=checkbox]{
-        display: none;
-    } 
-
-    HAMBURGER MENU
-    .hamburger {
-        display: none;
-        font-size: 24px;
-        user-select: none;
-    } */
-
-/* APPLYING MEDIA QUERIES */
-
-/* @media (max-width: 1300px) {
-    .navbar { 
-        display: none;
-        position: absolute;
-        right: 0;
-        left: 0;
-        text-align: center;
-        padding: 16px 0;
-    }
-
-    .navbar li:hover {
-        display: inline-block;
-        transition: 0.3s ease;
-    }
-    
-    input[type=checkbox]:checked ~ 
-        .navbar{
-            display: block;
-    }}
-/*      */
-    /* .hamburger {
-        display: block;
-    }
-    
-    } */
-     */ */
 
 /* Hamburger */
 .hamburger {
