@@ -251,11 +251,11 @@ img {
         width: 65%;
     }
 } 
-
+/* /* 
 /*RESPONSIVE NAVBAR MENU STARTS*/
 /* CHECKBOX HACK */
 
-input[type=checkbox]{
+/* input[type=checkbox]{
         display: none;
     } 
 
@@ -264,11 +264,11 @@ input[type=checkbox]{
         display: none;
         font-size: 24px;
         user-select: none;
-    }
+    } */
 
 /* APPLYING MEDIA QUERIES */
 
-@media (max-width: 1300px) {
+/* @media (max-width: 1300px) {
     .navbar { 
         display: none;
         position: absolute;
@@ -287,16 +287,15 @@ input[type=checkbox]{
         .navbar{
             display: block;
     }}
-/*     
-    .hamburger {
+/*      */
+    /* .hamburger {
         display: block;
     }
     
     } */
-    
+     */ */
+     
 /* Hamburger */
-
- 
 .hamburger {
     position: fixed;
     /* a large z-index puts the ham button above the rest of the page*/
