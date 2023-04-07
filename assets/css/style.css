@@ -181,7 +181,7 @@ p {
 
 #requirements i {
     color:rgb(107, 142, 35);
-    font-size: 200%;
+    font-size: 300%;
 }
 
 #end-user {
@@ -224,7 +224,7 @@ footer {
 }
 
 img {
-    width: 80%;
+    width: 60%;
     border-radius: 20px;
 }
 
@@ -232,13 +232,8 @@ img {
     padding: 0px 25px 25px;
 }
 
-.did-you-know {
-    background-color: rgba(107, 142, 35, .5);
-}
-
 .list-box {
     background-color:rgba(237, 248, 218, .5);
-    /* font-size: 20px; */
     line-height: 40px;
     width: 100%;
     box-sizing: border-box;
@@ -326,12 +321,16 @@ img {
         font-size: 200%;
     }
 
+    #landing-image {
+        height: 400px;
+    }
+
     #cover-text {
         font-size: 60%;
         width: 250px;
         padding: 5px; 
         bottom: 10rem;
-        right: 3rem;
+        right: 2rem;
     }
 
     .icon-box {
