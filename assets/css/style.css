@@ -253,13 +253,13 @@ img {
     color: red;
 }
 
-/*sign up page*/
-#sign-up {
+/*contact us page*/
+#contact {
     color: #3a3a3a;
     margin-left: 10%;
 }
 
-#sign-up h4 {
+#contact h4 {
     line-height: 300%;
 }
 
@@ -316,6 +316,10 @@ img {
 
     #logo {
         font-size: 200%;
+    }
+
+    .title-bar h1 {
+        font-size: 250%;
     }
 
     #landing-image {
