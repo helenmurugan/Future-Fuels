@@ -10,11 +10,11 @@ New legislation banning the sale of petrol and diesel vehicles will provide a ch
     * Featured at the top of all five pages for intuitive navigation, the navigation bar includes the Future Fuels logo that links to the home page, as well as links to pages for Batteries, Biofuels, Hydrogen and Contact Us.
     *  The navigation bar is fully responsive. At large screen sizes (1300px and above) the links are clickable page titles. For medium and small screen sizes a hamburger icon is used with a navigation menu that appears when the hamburger is selected. The hamburger was used for screen sizes 1299 px and below because the page title links appear squashed below this size.
     * For the logo a distinctive font was used for brand recognition and green was chosen as the colour inkeeping with the 'green' theme of the site.
-    * The other navigation links are in a font which is consistent across all text on the site.
+    * The other navigation links are in a font which is consistent across the site.
     * The navigation bar makes it easy for users to navigate around the site without using the back button on the web browser.
 
 * ### The landing page image
-    * The landing page includes a photograph with text overlay to allow the user to see a statement of purpose. Users will immediately understand where they have come and what Future Fuels does.
+    * The landing page includes a photograph with text overlay to allow the user to see a statement of purpose. Users will immediately understand where they have come and what Future Fuels provides.
 
 * ### Why future fuels section
     * This section briefly describes a problem that businesses will face in the near future. It lays out in simple terms how Future Fuels can provide a solution to this problem.
