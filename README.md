@@ -43,14 +43,14 @@ New legislation banning the sale of petrol and diesel vehicles will provide a ch
     * Subsequent versions of this site will include case studies/testimonials from existing clients.
 
 ## Testing
-* The site has been tested and works in different browsers: Chrome, Microsoft Edge and Safari.
+* The site has been tested and works well in different browsers: Chrome, Microsoft Edge and Safari.
 * DevTools device toolbar was used to ensure the site is fully responsive and looks good across different screen sizes. 
 * Media queries were added to the following features, where I could see features becoming squashed as the screen size got smaller. I have tested that features are all readable and easy to understand.
     * Navigation menu (hamburger appears at 1299px and below and page title navigation links are hidden).
     * Width of headings, images and paragraphs is increased for smaller screen sizes (incrementally at 1299 px and 700 px and below).
     * Font size for all text is reduced for screen sizes at 700px and below. 
     * Flexbox is reduced to two columns for screen sizes at 700px and below. 
-* The form has been tested and 
+* The form has been tested and requires inputs in all fields, except for the message textarea which is optional. The email address field will only accept an email address. The contact number field will accept numbers of a minimum length of 11 digits. The submit button works and links to a thanks.html page, thanking the user for getting in touch.
 
     
 

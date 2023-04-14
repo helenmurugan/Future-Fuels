@@ -86,7 +86,7 @@ header {
     border: none;
     cursor: pointer;
     top: 1rem;
-    right: 1rem;
+    right: 2rem;
   }
   
   .ham-menu {
@@ -307,8 +307,8 @@ img {
 
 /*screens 1299px and below*/
 @media screen and (max-width: 1299px) {
-    .width80 {
-        width: 80%;
+    .width75 {
+        width: 75%;
     }
     #hide-menu {
         display: none;
@@ -317,8 +317,8 @@ img {
 
 /*screens 700px and below*/
 @media screen and (max-width: 700px) {
-    .width100 {
-        width: 100%;
+    .width90 {
+        width: 90%;
     }
 
     #logo {
