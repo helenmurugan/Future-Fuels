@@ -12,14 +12,47 @@ New legislation banning the sale of petrol and diesel vehicles will provide a ch
     * For the logo a distinctive font was used for brand recognition and green was chosen as the colour inkeeping with the 'green' theme of the site.
     * The other navigation links are in a font which is consistent across the site.
     * The navigation bar makes it easy for users to navigate around the site without using the back button on the web browser.
+    * Below the navigation bar is a styled title bar which lets the user know which page they are on (except for the home page where this title is not necessary).
 
-* ### The landing page image
+* ### The Landing Page Image
     * The landing page includes a photograph with text overlay to allow the user to see a statement of purpose. Users will immediately understand where they have come and what Future Fuels provides.
 
-* ### Why future fuels section
+* ### Why Future Fuels Section
     * This section briefly describes a problem that businesses will face in the near future. It lays out in simple terms how Future Fuels can provide a solution to this problem.
 
- * ### Requirements section
+ * ### Requirements Section
     * This section uses a flexbox, icons and headings to provide a simple infographic which demonstrates the important factors when considering new fuels. This is followed by a paragraph which explains what Future Fuels can provide to the user.
+
+* ### Footer
+    * This section provides links to Future Fuels social media pages to allow the user to stay connected.
+    * The links will open to a new tab to allow easy navigation for the user.
+    * The footer is identical across all five pages.
+
+* ### Batteries, Biofuels and Hydrogen Pages
+    * These three pages follow the same format for good user experience.
+    * They consist of a heading which demonstrates the current or expected use of each fuel, paragraphs giving a simple description of the technology and two lists showing the pros and cons for each fuel.
+    * The text is broken up into manageable short paragraphs and styled lists to keep the users attention.
+    * These pages are valuable to users as they introduce new information in an intuitive and understandable way.
+
+* ### Contact Us Page
+    * The Contact Us page consists of a heading which encourages the user to fill in a form to receive back a free discovery call.
+    * The form consists of input fields for first name, last name, email address, organisation, a message and a submit button.
+    * This page is valuable to users as it provides a way to learn more about Future Fuels.
+
+* ### Features Left to Implement
+    * Subsequent versions of this site will include case studies/testimonials from existing clients.
+
+## Testing
+* The site has been tested and works in different browsers: Chrome, Microsoft Edge and Safari.
+* DevTools device toolbar was used to ensure the site is fully responsive and looks good across different screen sizes. 
+* Media queries were added to the following features, where I could see features becoming squashed as the screen size got smaller. I have tested that features are all readable and easy to understand.
+    * Navigation menu (hamburger appears at 1299px and below and page title navigation links are hidden).
+    * Width of headings, images and paragraphs is increased for smaller screen sizes (incrementally at 1299 px and 700 px and below).
+    * Font size for all text is reduced for screen sizes at 700px and below. 
+    * Flexbox is reduced to two columns for screen sizes at 700px and below. 
+
+    
+
+
 
 
