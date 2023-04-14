@@ -52,7 +52,29 @@ New legislation banning the sale of petrol and diesel vehicles will provide a ch
     * Flexbox is reduced to two columns for screen sizes at 700px and below. 
 * The form has been tested and requires inputs in all fields, except for the message textarea which is optional. The email address field will only accept an email address. The contact number field will accept numbers of a minimum length of 11 digits. The submit button works and links to a thanks.html page, thanking the user for getting in touch.
 
-    
+* ### Validator Testing
+    * HTML 
+        * No errors were returned when validating the code with the official W3C validator.
+    * CSS 
+        * No errors were returned when validating the code with the official (Jigsaw) validator.
+    * Accessibility
+        * I confirmed that the fonts and colours are easy to read. I used Lighthouse in DevTools to confirm that the each page scores well for accessibility.
+
+* ### Unfixed Bugs
+    * There are no unfixed bugs
+
+* ### Deployment
+    * The
+
+* ### Credits
+    * Content
+        * The code for the social media links was taken from the Code Institute Love Running project.
+        * The code for the hamburger menu using only HTML and CSS was taken from https://dev.to/ljcdev/hamburger-css-no-js-2dfa
+    * Media
+        * Images were taken from
+        * The statistics in the page headings were taken from
+
+
 
 
 
