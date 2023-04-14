@@ -50,6 +50,7 @@ New legislation banning the sale of petrol and diesel vehicles will provide a ch
     * Width of headings, images and paragraphs is increased for smaller screen sizes (incrementally at 1299 px and 700 px and below).
     * Font size for all text is reduced for screen sizes at 700px and below. 
     * Flexbox is reduced to two columns for screen sizes at 700px and below. 
+* The form has been tested and 
 
     
 
