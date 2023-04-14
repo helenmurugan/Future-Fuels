@@ -289,6 +289,14 @@ img {
 	padding: 0.75rem;
 }
 
+/*thanks page*/
+#thank-you {
+    color: #3a3a3a;
+    margin-left: 10%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 /*media queries*/
 /*screens 1300px and above*/
 @media screen and (min-width: 1300px) {
