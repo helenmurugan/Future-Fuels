@@ -20,6 +20,6 @@ New legislation banning the sale of petrol and diesel vehicles will provide a ch
     * This section briefly describes a problem that businesses will face in the near future. It lays out in simple terms how Future Fuels can provide a solution to this problem.
 
  * ### Requirements section
-    * This section is focussed on what
+    * This section uses a flexbox, icons and headings to provide a simple infographic which demonstrates the important factors when considering new fuels. This is followed by a paragraph which explains what Future Fuels can provide to the user.
 
 
