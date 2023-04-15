@@ -161,7 +161,7 @@ p {
     line-height: 30px;
 }
 
-/* requirements section */
+/* fuel requirements section */
 #requirements {
     display: flex;
     flex-direction: column;
@@ -184,9 +184,9 @@ p {
     font-size: 300%;
 }
 
-#end-user {
+.services {
     width: 100%;
-    padding: 25px 25px 50px;
+    padding: 25px 25px 25px;
     box-sizing: border-box;
 }
 

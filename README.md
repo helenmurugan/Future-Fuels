@@ -14,6 +14,8 @@ New legislation banning the sale of petrol and diesel vehicles will provide a ch
     * The navigation bar makes it easy for users to navigate around the site without using the back button on the web browser.
     * Below the navigation bar is a styled title bar which lets the user know which page they are on (except for the home page where this title is not necessary).
 
+<img src="assets/images/ff-nav-bar.jpg" alt="nav bar image">
+
 * ### The Landing Page Image
     * The landing page includes a photograph with text overlay to allow the user to see a statement of purpose. Users will immediately understand where they have come and what Future Fuels provides.
 
@@ -71,8 +73,9 @@ New legislation banning the sale of petrol and diesel vehicles will provide a ch
         * The code for the social media links was taken from the Code Institute Love Running project.
         * The code for the hamburger menu using only HTML and CSS was taken from https://dev.to/ljcdev/hamburger-css-no-js-2dfa
     * Media
-        * Images were taken from
-        * The statistics in the page headings were taken from
+        * Images were taken from [Pexels](https://www.pexels.com/)
+        * The statistics in the page headings were taken from (https://www.acea.auto/), https://www.eea.europa.eu/ and  https://www.euractiv.com/.
+
 
 
 
