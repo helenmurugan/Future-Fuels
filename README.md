@@ -9,17 +9,40 @@ By Helen Murugan
 This is a documentation of the development process for Future Fuels website. It is for educational purposes only, as my first milestone project for a diploma in Full Stack Software Development with Code Institute, using frontend development with HTML and CSS.
 
 ## Project Goals
-Future Fuels is a site that offers a service to businesses who need to reduce their emissions from road transport. It is a B2B site which offers a solution to a real-world problem. My research has shown that this type of business does not already exist, to the best of my knowledge. Other consultancies do exist which offer a wide range of services but not specifically to reduce emissions from road transport.
+Future Fuels is a site that offers a service to businesses who need to reduce their emissions from road transport. It is a B2B site which offers a solution to a real-world problem. To the best of my knowledge, this type of business does not already exist. Other consultancies exist which offer a wide range of services but not specifically to reduce emissions from road transport.
+
+The site provides a short description of why this service is needed, basic information on the main alternatives to conventional fuels and the pros and cons that exist for each technology and what services can be provided to the user. There is also an opportunity to contact Future Fuels for more information about the services provided.
 
 * ## Site Rationale
-New legislation banning the sale of petrol and diesel vehicles will provide a challenge to businesses who need to choose between and transition to new fuel technologies, the impacts of which may not be well-understood. Future Fuels addresses this problem by providing consultancy to businesses who need to find cost-effective fuel strategies that suit their business requirements, and specifically the requirements from the new fuels they adopt (range, refuel time, cost, vehicle capacity, infrastructure etc). The site provides a short description of why this service is needed, basic information on the main alternatives to conventional fuels and the pros and cons that exist for each technology. There is also an opportunity to contact Future Fuels for more information about the services provided.
+    * New legislation banning the sale of petrol and diesel vehicles will provide a challenge to businesses who need to choose between and transition to new fuel technologies, the impacts of which may not be well-understood.
+
+    * Future Fuels addresses this problem by providing consultancy to businesses who need to find cost-effective fuel strategies that suit their business requirements, and specifically the requirements from the new fuels they adopt (range, refuel time, cost, vehicle capacity, infrastructure etc). 
+
 
 * ## Target Audience
-    The intended audience are businesses who have fleets of road transport vehicles. Examples of such businesses include: 
-    * Delivery services 
-    * Emergency services
-    * Mobile services (eg. mechanics/roadside assistance)
-    * Transportation of cargo
+    * The intended audience are businesses who have fleets of road transport vehicles. Examples of such businesses include: 
+        * Delivery services 
+        * Emergency services
+        * Mobile services (eg. mechanics/roadside assistance)
+        * Transportation of cargo
+
+## User Experience
+* ### User Stories
+    As a First Time Visitor I want:
+    1. To understand the main purpose of the site and what services Future Fuels offer.
+    2. To gain a good impression and confidence in Future Fuels as a brand. 
+    3. To easily navigate around the content of the site.
+    3. To learn more about alternative fuels.
+    4. To understand where I can find out more information about Future Fuels.
+    5. To understand how I can contact Future Fuels.
+
+    As a Returning Visitor I want:
+    1. All of the above.
+    2. To contact Future Fuels.
+
+* ### Design
+* ### Wireframes
+
 
 ## Features
 
