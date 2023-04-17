@@ -190,6 +190,29 @@ p {
     box-sizing: border-box;
 }
 
+/*testimonials*/
+#testimonials {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+#testimonials p {
+    padding-bottom: 50px;
+}
+
+#testimonials i {
+    color: green;
+}
+
+.green-box {
+    background-color:rgba(237, 248, 218, .5);
+    line-height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
 /*footer*/
 footer {
     background-color: rgba(107, 142, 35, .5);
@@ -228,16 +251,7 @@ img {
     padding: 0px 25px 25px;
 }
 
-.list-box {
-    background-color:rgba(237, 248, 218, .5);
-    line-height: 40px;
-    width: 100%;
-    box-sizing: border-box;
-    border-radius: 20px;
-    margin-top: 25px;
-}
-
-.list-box li{
+.green-box li {
     list-style-type: none;
 }
 

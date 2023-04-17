@@ -6,28 +6,28 @@ By Helen Murugan
 
 [View the live site here](https://helenmurugan.github.io/future-fuels/)
 
-This is a documentation of the development process for Future Fuels website. It is for educational purposes only, as my first milestone project for a diploma in Full Stack Software Development with Code Institute, using frontend development with HTML and CSS.
+This documents the development process for Future Fuels website. It is for educational purposes only, as my first milestone project for a Diploma in Full Stack Software Development (E-Commerce Applications) with Code Institute, using frontend user-centric development with HTML and CSS.
 
 ## Project Goals
 Future Fuels is a site that offers a service to businesses who need to reduce their emissions from road transport. It is a B2B site which offers a solution to a real-world problem. To the best of my knowledge, this type of business does not already exist. Other consultancies exist which offer a wide range of services but not specifically to reduce emissions from road transport.
 
 The site provides a short description of why this service is needed, basic information on the main alternatives to conventional fuels and the pros and cons that exist for each technology and what services can be provided to the user. There is also an opportunity to contact Future Fuels for more information about the services provided.
 
-* ## Site Rationale
+* ### Site Rationale
     * New legislation banning the sale of petrol and diesel vehicles will provide a challenge to businesses who need to choose between and transition to new fuel technologies, the impacts of which may not be well-understood.
 
     * Future Fuels addresses this problem by providing consultancy to businesses who need to find cost-effective fuel strategies that suit their business requirements, and specifically the requirements from the new fuels they adopt (range, refuel time, cost, vehicle capacity, infrastructure etc). 
 
 
-* ## Target Audience
+* ### Target Audience
     * The intended audience are businesses who have fleets of road transport vehicles. Examples of such businesses include: 
         * Delivery services 
         * Emergency services
         * Mobile services (eg. mechanics/roadside assistance)
         * Transportation of cargo
 
-## User Experience
-* ### User Stories
+## User Experience (UX)
+* ### User Goals
     As a First Time Visitor I want:
     1. To understand the main purpose of the site and what services Future Fuels offer.
     2. To gain a good impression and confidence in Future Fuels as a brand. 
@@ -41,7 +41,13 @@ The site provides a short description of why this service is needed, basic infor
     2. To contact Future Fuels.
 
 * ### Design
+    * Colour Scheme
+    * Typography
+    *Imagery
+
 * ### Wireframes
+
+
 
 
 ## Features
@@ -102,6 +108,19 @@ The site provides a short description of why this service is needed, basic infor
 * ### Features Left to Implement
     * Subsequent versions of this site will include case studies/testimonials from existing clients.
 
+## Technologies Used
+* ### Languages Used
+    * HTML5
+    * CSS3
+
+* ### Frameworks, Libraries and Programs Used
+    1. Google Fonts
+    2. Font Awesome
+    3. Git
+    4. GitHub
+    5. Balsamiq
+
+
 ## Testing
 * The site has been tested and works well in different browsers: Chrome, Microsoft Edge and Safari.
 * DevTools device toolbar was used to ensure the site is fully responsive and looks good across different screen sizes. 
@@ -120,26 +139,28 @@ The site provides a short description of why this service is needed, basic infor
     * Accessibility
         * I confirmed that the fonts and colours are easy to read. I used Lighthouse in DevTools to confirm that the each page scores well for accessibility.
 
+* ### Testing User Stories from User Experience (UX) Section
+
 * ### Unfixed Bugs
     * There are no unfixed bugs
 
-* ### Deployment
-    * The site was deployed to GitHub pages by the following steps:
-        1. Log in to GitHub and select Future Fuels repository.
-        2. Navigate to Settings tab.
-        3. Navigate to Pages from the left-hand menu.
-        4. In Source select "Deploy from a branch".
-        5. In Branch select "main".
-        6. Select Save.
-        7. After several minutes the live site was deployed [here](https://helenmurugan.github.io/future-fuels/)
+## Deployment
+* The site was deployed to GitHub pages by the following steps:
+    1. Log in to GitHub and select Future Fuels repository.
+    2. Navigate to Settings tab.
+    3. Navigate to Pages from the left-hand menu.
+    4. In Source select "Deploy from a branch".
+    5. In Branch select "main".
+    6. Select Save.
+    7. After several minutes the live site was deployed [here](https://helenmurugan.github.io/future-fuels/)
 
-* ### Credits
-    * Content
-        * The code for the social media links was taken from the Code Institute Love Running project.
-        * The code for the hamburger menu using only HTML and CSS was taken from https://dev.to/ljcdev/hamburger-css-no-js-2dfa
-    * Media
-        * Images were taken from [Pexels](https://www.pexels.com/)
-        * The statistics in the page headings were taken from (https://www.acea.auto/), https://www.eea.europa.eu/ and  https://www.euractiv.com/.
+## Credits
+* Content
+    * The code for the social media links was taken from the Code Institute Love Running project.
+    * The code for the hamburger menu using only HTML and CSS was taken from https://dev.to/ljcdev/hamburger-css-no-js-2dfa
+* Media
+    * Images were taken from [Pexels](https://www.pexels.com/)
+    * The statistics in the page headings were taken from (https://www.acea.auto/), https://www.eea.europa.eu/ and  https://www.euractiv.com/.
 
 
 
