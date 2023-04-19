@@ -156,11 +156,14 @@ The site provides a short description of why this service is needed, basic infor
 
 ## Credits
 * Content
-    * The code for the social media links was taken from the Code Institute Love Running project.
+    * The code for the social media links in the footer was taken from the Code Institute Love Running project.
+    * The code for the cover text styled over the landing image was taken from the Code Institute Love Running Project.
     * The code for the hamburger menu using only HTML and CSS was taken from https://dev.to/ljcdev/hamburger-css-no-js-2dfa
+    * I would like to thank my mentor Victor Miclovich for his excellent advice and guidance during the development of this project.
 * Media
-    * Images were taken from [Pexels](https://www.pexels.com/)
-    * The statistics in the page headings were taken from (https://www.acea.auto/), https://www.eea.europa.eu/ and  https://www.euractiv.com/.
+    * The landing page image was taken from [Pexels](https://www.pexels.com/)
+    * The images on Batteries, Biofuels and Hydrogen pages were taken from [iStock](https://www.istockphoto.com)
+    * The statistics in the page headings for Batteries, Biofuels and Hydrogen were taken from (https://www.acea.auto/), https://www.eea.europa.eu/ and  https://www.euractiv.com/.
 
 
 
