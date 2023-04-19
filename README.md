@@ -6,17 +6,19 @@ By Helen Murugan
 
 [View the live site here](https://helenmurugan.github.io/future-fuels/)
 
-This documents the development process for Future Fuels website. It is for educational purposes only, as my first milestone project for a Diploma in Full Stack Software Development (E-Commerce Applications) with Code Institute, using frontend user-centric development with HTML and CSS.
+## Introduction
+* This document describes the development process for Future Fuels website. It is for educational purposes only, as my first milestone project for a Diploma in Full Stack Software Development (E-Commerce Applications) with Code Institute, using frontend user-centric development with HTML and CSS.
+
+* Future Fuels is a site that offers a service to businesses who need to reduce their emissions from road transport. It is a B2B site which offers a solution to a real-world problem. To the best of my knowledge, this type of business does not already exist. Other consultancies exist which offer a wide range of services but not specifically to reduce emissions from road transport.
+
+* The site provides a short description of why this service is needed, basic information on the main alternatives to conventional fuels and the pros and cons that exist for each technology, as well as what services Future Fuels can provide to the user. There is an opportunity to contact Future Fuels for more information about the services provided.
+
 
 ## Project Goals
-Future Fuels is a site that offers a service to businesses who need to reduce their emissions from road transport. It is a B2B site which offers a solution to a real-world problem. To the best of my knowledge, this type of business does not already exist. Other consultancies exist which offer a wide range of services but not specifically to reduce emissions from road transport.
-
-The site provides a short description of why this service is needed, basic information on the main alternatives to conventional fuels and the pros and cons that exist for each technology and what services can be provided to the user. There is also an opportunity to contact Future Fuels for more information about the services provided.
-
 * ### Site Rationale
-    * New legislation banning the sale of petrol and diesel vehicles will provide a challenge to businesses who need to choose between and transition to new fuel technologies, the impacts of which may not be well-understood.
+    * New legislation banning the sale of petrol and diesel vehicles will provide a challenge to businesses who need to choose between and transition to new fuel technologies for entire fleets of vehicles, the impacts of which may not be well-understood bus include cost, refuelling infrastructure, refuel time etc.
 
-    * Future Fuels addresses this problem by providing consultancy to businesses who need to find cost-effective fuel strategies that suit their business requirements, and specifically the requirements from the new fuels they adopt (range, refuel time, cost, vehicle capacity, infrastructure etc). 
+    * Future Fuels addresses this problem by providing consultancy to businesses who need to find cost-effective fuel strategies that suit their business requirements.
 
 
 * ### Target Audience
@@ -30,20 +32,34 @@ The site provides a short description of why this service is needed, basic infor
 * ### User Goals
     As a First Time Visitor I want:
     1. To understand the main purpose of the site and what services Future Fuels offer.
-    2. To gain a good impression and confidence in Future Fuels as a brand. 
-    3. To easily navigate around the content of the site.
-    3. To learn more about alternative fuels.
-    4. To understand where I can find out more information about Future Fuels.
-    5. To understand how I can contact Future Fuels.
+    1. To gain a good impression and confidence in Future Fuels as a brand. 
+    1. To easily navigate around the content of the site.
+    1. To learn more about alternative fuel options.
+    1. To understand where I can find out more information about Future Fuels.
+    1. To understand how I can contact Future Fuels.
 
     As a Returning Visitor I want:
-    1. All of the above.
-    2. To contact Future Fuels.
+    1. To make contact with Future Fuels.
+
+    As a Frequent User I want:
+    1. To check the site for any new information such as blog posts, partners, case studies or testimonials.
+    1. To be able to recommend the site to other users.
 
 * ### Design
     * Colour Scheme
+        * The following colours were chosen as the primary colours for the site, and are consistent throughout. The green colour is inkeeping with the "green" theme of the site.
+            * olivedrab #6b8e23
+            * #edf8da (light green)
+            * #3a3a3a (dark grey)
+        * A simple grey text on white background was chosen to appeal to a business audience.
+        * Secondary colours were chosen as green, red and blue and appear only in the icons and images.
     * Typography
-    *Imagery
+        * MuseoModerno was chosen for the logo because it is distinctive and recognisable. The shape of the font bears a likeness to pipes which is inkeeping with the industrial nature of the brand.
+        * Montserrat was chosen for all other text throughout the site. It is a familiar and easy-to-read font.
+        * Arial was chosen as a fallback font. 
+    * Imagery
+        * The landing page image was chosen to be attractive, recognisable and inkeeping with the theme of the site. The symmetry and calmness of the image make it appealing to look at.
+        * The colours in all images are inkeeping with the colour palette of the site. 
 
 * ### Wireframes
 
