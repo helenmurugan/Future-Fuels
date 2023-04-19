@@ -30,27 +30,27 @@ By Helen Murugan
 
 ## User Experience (UX)
 * ### User Goals
-    As a First Time Visitor I want:
-    1. To understand the main purpose of the site and what services Future Fuels offer.
-    1. To gain a good impression and confidence in Future Fuels as a brand. 
-    1. To easily navigate around the content of the site.
-    1. To learn more about alternative fuel options.
-    1. To understand where I can find out more information about Future Fuels.
-    1. To understand how I can contact Future Fuels.
+    * As a First Time Visitor I want:
+        1. To understand the main purpose of the site and what services Future Fuels offer.
+        1. To gain a good impression and confidence in Future Fuels as a brand. 
+        1. To easily navigate around the content of the site.
+        1. To learn more about alternative fuel options.
+        1. To understand where I can find out more information about Future Fuels.
+        1. To understand how I can contact Future Fuels.
 
-    As a Returning Visitor I want:
-    1. To make contact with Future Fuels.
+    * As a Returning Visitor I want:
+        1. To make contact with Future Fuels.
 
-    As a Frequent User I want:
-    1. To check the site for any new information such as blog posts, partners, case studies or testimonials.
-    1. To be able to recommend the site to other users.
+    * As a Frequent User I want:
+        1. To check the site for any new information such as blog posts, partners, case studies or testimonials.
+        1. To be able to recommend the site to other users.
 
 * ### Design
     * Colour Scheme
         * The following colours were chosen as the primary colours for the site, and are consistent throughout. The green colour is inkeeping with the "green" theme of the site.
             * olivedrab #6b8e23
-            * #edf8da (light green)
-            * #3a3a3a (dark grey)
+            * light green #edf8da
+            * dark grey #3a3a3a
         * A simple grey text on white background was chosen to appeal to a business audience.
         * Secondary colours were chosen as green, red and blue and appear only in the icons and images.
     * Typography
@@ -63,9 +63,9 @@ By Helen Murugan
         * The colours in all images are inkeeping with the colour palette of the site. 
 
 * ### Wireframes
+During the planning stage, I used Balsamiq to create wireframes for each page, and plan the structure of the site.
 
-
-
+![Image of home page wireframe](documentation/landing-page-wireframe.jpg)
 
 ## Features
 
@@ -73,8 +73,6 @@ By Helen Murugan
     * Featured at the top of all five pages for intuitive navigation
     * Includes the Future Fuels logo that links to the home page, as well as links to pages for Batteries, Biofuels, Hydrogen and Contact Us.
     * The navigation bar is fully responsive. At large screen sizes the links are clickable page titles. For medium and small screen sizes a hamburger menu is used.
-    * For the logo a distinctive font was used for brand recognition and green was chosen as the colour inkeeping with the 'green' theme of the site.
-    * The other navigation links are in a font which is consistent across the site.
     * The navigation bar makes it easy for users to navigate around the site without using the back button on the web browser.
     * Below the navigation bar is a styled title bar which lets the user know which page they are on (except for the home page where this title is not necessary).
 
@@ -98,6 +96,11 @@ By Helen Murugan
 
 ![Image of Why Future Fuel REquirements section](documentation/fuel-requirements.jpg)
 
+* ### Testimonials
+    * This section shows two styled testimonials which give the user confidence in the brand.
+
+![Image of Testimonials](documentation/testimonials.jpg)
+
 * ### Footer
     * This section provides links to Future Fuels social media pages to allow the user to stay connected.
     * The links will open to a new tab to allow easy navigation for the user.
@@ -106,24 +109,36 @@ By Helen Murugan
 ![footer image](documentation/footer.jpg)
 
 * ### Favicon
-    * Displays a secondary logo to strengthen the brand.
-    * Makes it easier for the user to pick out Future Fuels site from the tabs.
+    * The favicon displays a secondary logo to strengthen the brand.
+    * The favicon makes it easier for the user to pick out Future Fuels site from the tabs.
 
 ![favicon image](documentation/favicon.jpg)
 
 * ### Batteries, Biofuels and Hydrogen Pages
     * These three pages follow the same format for good user experience.
-    * They consist of a heading which demonstrates the current or expected use of each fuel, paragraphs giving a simple description of the technology and two lists showing the pros and cons for each fuel.
     * The text is broken up into manageable short paragraphs and styled lists to keep the users attention.
     * These pages are valuable to users as they introduce new information in an intuitive and understandable way.
+    * They consist of four sections
+        * A heading with a statistic to grab the users attention.
+        * An image.
+        * A short description of the technology.
+        * Lists of pros and cons, these are particularly valuable to the user as they describe when the technology can and cant be used in each case.
+
+![Image of hydrogen page](documentation/hydrogen-page.jpg)
+![Image of hydrogen page](documentation/hydrogen-lists.jpg)
 
 * ### Contact Us Page
     * The Contact Us page consists of a heading which encourages the user to fill in a form to receive back a free discovery call.
     * The form consists of input fields for first name, last name, email address, organisation, a message and a submit button.
     * This page is valuable to users as it provides a way to learn more about Future Fuels.
 
+![Image of form on Contact Us page](documentation/contact-us.jpg)
+
 * ### Features Left to Implement
-    * Subsequent versions of this site will include case studies/testimonials from existing clients.
+Subsequent versions of this site could include
+    * The logos of partners that Future Fuels work with.
+    * Blog posts
+    * It would be nice to have animated testimonials which slide into the screeen from the side.
 
 ## Technologies Used
 * ### Languages Used
@@ -137,16 +152,7 @@ By Helen Murugan
     4. GitHub
     5. Balsamiq
 
-
 ## Testing
-* The site has been tested and works well in different browsers: Chrome, Microsoft Edge and Safari.
-* DevTools device toolbar was used to ensure the site is fully responsive and looks good across different screen sizes. 
-* Media queries were added to the following features, where I could see features becoming squashed as the screen size got smaller. I have tested that features are all readable and easy to understand.
-    * Navigation menu (hamburger appears at 1299px and below and page title navigation links are hidden).
-    * Width of headings, images and paragraphs is increased for smaller screen sizes (incrementally at 1299 px and 700 px and below).
-    * Font size for all text is reduced for screen sizes at 700px and below. 
-    * Flexbox is reduced to two columns for screen sizes at 700px and below. 
-* The form has been tested and requires inputs in all fields, except for the message textarea which is optional. The email address field will only accept an email address. The contact number field will accept numbers of a minimum length of 11 digits. The submit button works and links to a thanks.html page, thanking the user for getting in touch.
 
 * ### Validator Testing
     * HTML 
@@ -154,12 +160,57 @@ By Helen Murugan
     * CSS 
         * No errors were returned when validating the code with the official (Jigsaw) validator.
     * Accessibility
-        * I confirmed that the fonts and colours are easy to read. I used Lighthouse in DevTools to confirm that the each page scores well for accessibility.
+        * I confirmed that the fonts and colours are easy to read. I used Lighthouse in DevTools to confirm that every page scores well for accessibility.
+
+![Image of Lighthouse results showing green scores for accessibility](documentation/lighthouse.jpg)
 
 * ### Testing User Stories from User Experience (UX) Section
 
+* #### First Time Visitor Goals
+    1. As a First Time Visitor, I want to understand the main purpose of the site and what services Future Fuels offer.
+        * Upon entering the site, users are greeted with a landing image and cover text describing what Future Fuels can offer to businesses.
+        * This is explained in further detail on the home page using headings, short paragraphs and icons.
+    1. As a First Time Visitor,I want to gain a good impression and confidence in Future Fuels as a brand. 
+        * The site looks clean and professional, well-suited to a business audience with relevant information and minimal fussy styling. Testimonials add further confidence to the brand.
+    1. As a First Time Visitor,I want to easily navigate around the content of the site.
+        * The site has been designed with intuitive navigation in mind. The navigation menus look the same on every page and each link clearly describes what the page is about. 
+        * As standard, the logo also acts as a link back to to the home page.
+    1. As a First Time Visitor, I want to learn more about alternative fuel options.
+        * The site contains three pages with useful information on the three alternative fuel options for road transport. The content and styling of the information has been designed to keep the users attention.
+    1. As a First Time Visitor, I want to understand where I can find out more information about Future Fuels.
+        * Every page contains a footer with navigation links to the relevant social media sites, which open in a new tab.
+    1. As a First Time Visitor, I want to understand where I can contact Future Fuels.
+        * A Contact Us page is clearly visible on the navigation links with an opportunity to fill in a form for a call back. 
+
+* #### Returning Visitor Goals
+    1. As a Returning Visitor I want to make contact with Future Fuels.
+        * Business users are more likely to contact a company on a return visit to the site.
+        * A Contact Us page is clearly visible on the navigation links with an opportunity to fill in a form for a call back.
+    1. As a Returning Visitor I want to find out more information about Future Fuels.
+        * As there is a lot of information on the site, users may return multiple times, if they dont have time to read it on their first visit.
+
+* #### Frequent User Goals
+    1. As a Frequent User I want to check the site for any new information such as blog posts, partners, case studies or testimonials.
+        1. To be able to recommend the site to other users.
+
+
+* ### Fixed Bugs
+    * After deployment I noticed that the favicon was not working (it did work before delpoyment). This was fixed by removing '/' from the start of the absolute filepath.
+    * Before deployment I noticed that the title bar was not spanning the full width of the page on smaller screen sizes, I could see a white space on the right-side of the title bar. To find a solution, I commented out each of the CSS media queries until I found the style rule that was causing the problem. It turned out to be the style rule for width (width: 100%;) of the title and paragraph below. When I changed this to a width of 95% the problem was fixed.
+    * Before deployment I noticed that sometimes the hamburger menu would be partially or fully obstructed by the browser scroll bar in DevTools. I fixed this by moving the hamburger icon further to the left using CSS.
+
 * ### Unfixed Bugs
     * There are no unfixed bugs
+
+* ### Further Testing
+    * The site has been tested and works well in different browsers: Chrome, Microsoft Edge, Internet Explorer and Safari.
+    * DevTools device toolbar was used to ensure the site is fully responsive and looks good across different screen sizes. 
+    * Media queries were added to the following features, where I could see features becoming squashed as the screen size got smaller. I have tested that features are all readable and easy to understand.
+        * Navigation menu (hamburger appears at 1299px and below and page title navigation links are hidden).
+        * Width of headings, images and paragraphs is increased for smaller screen sizes (incrementally at 1299 px and 700 px and below).
+        * Font size for all text is reduced for screen sizes at 700px and below. 
+        * Flexbox is reduced to two columns for screen sizes at 700px and below. 
+    * The form has been tested and requires inputs in all fields, except for the message textarea which is optional. The email address field will only accept an email address. The contact number field will accept numbers of a minimum length of 11 digits. The submit button works and links to a thanks.html page, thanking the user for getting in touch.
 
 ## Deployment
 * The site was deployed to GitHub pages by the following steps:
