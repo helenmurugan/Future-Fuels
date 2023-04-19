@@ -96,7 +96,6 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    width: 100%;
     height: 50vh;
 
     /* basic menu styling*/
@@ -312,6 +311,11 @@ img {
     padding-bottom: 100px;
 }
 
+/*404 page*/
+#error-message {
+    padding: 50 px;
+}
+
 /*media queries*/
 /*screens 1300px and above*/
 @media screen and (min-width: 1300px) {
@@ -325,6 +329,7 @@ img {
     .width75 {
         width: 75%;
     }
+
     #hide-menu {
         display: none;
     }
@@ -332,10 +337,6 @@ img {
 
 /*screens 700px and below*/
 @media screen and (max-width: 700px) {
-    .width90 {
-        width: 90%;
-    }
-
     #logo {
         font-size: 200%;
     }
