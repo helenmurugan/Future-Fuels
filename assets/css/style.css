@@ -270,7 +270,7 @@ img {
 /*contact us page*/
 #contact {
     color: #3a3a3a;
-    margin-left: 10%;
+    margin-left: 30%;
 }
 
 #contact h4 {
@@ -361,6 +361,10 @@ img {
 
     .icon-box {
         width: 50%;
+    }
+
+    #contact {
+        margin-left: 10%;
     }
 } 
 
