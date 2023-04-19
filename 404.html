@@ -14,8 +14,57 @@
 </head>
 
 <body>
-    <p ID="error-message" class="center-text">Sorry we could not find the page you are looking for.</p>
-</body>
+    <header>
+        <!-- nav bar -->
+        <a href="index.html">
+            <h1 id="logo">Future Fuels</h1>
+        </a>
+        <nav id="menu">
+            <ul id="hide-menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="batteris.html" class="active">Batteries</a>
+                </li>
+                <li>
+                    <a href="biofuels.html">Biofuels</a>
+                </li>
+                <li>
+                    <a href="hydrogen.html">Hydrogen</a>
+                </li>
+                <li>
+                    <a href="contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="ham-menu" id="ham-menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="batteries.html">Batteries</a></li>
+            <li><a href="biofuels.html">Biofuels</a></li>
+            <li><a href="hydrogen.html">Hydrogen</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a class="close" href="batteries.html">
+            <span class="material-icons">
+              close
+            </span>
+            </a></li>
+        </ul>
+        <a class="hamburger" href="#ham-menu">
+            <span class="material-icons">
+              menu
+            </span>
+        </a>
+        <!-- nav bar -->
+    </header>
+
+    <!--title bar-->
+    <div class="title-bar">
+        <h1>404</h1>
+    </div>
+    <!--title bar-->
+    
+<p ID="error-message" class="center-text">Sorry we could not find the page you are looking for.</p>
 
 <!-- footer -->
 <footer>
@@ -35,3 +84,8 @@
     </ul>
 </footer>
 <!-- footer -->
+
+<!-- font awesome script -->
+<script src="https://kit.fontawesome.com/a641fcbef3.js" crossorigin="anonymous"></script>
+</body>
+</html>
