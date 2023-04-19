@@ -54,8 +54,9 @@ By Helen Murugan
         * A simple grey text on white background was chosen to appeal to a business audience.
         * Secondary colours were chosen as green, red and blue and appear only in the icons and images.
     * Typography
-        * MuseoModerno was chosen for the logo because it is distinctive and recognisable. The shape of the font bears a likeness to pipes which is inkeeping with the industrial nature of the brand.
-        * Montserrat was chosen for all other text throughout the site. It is a familiar and easy-to-read font.
+        * MuseoModerno was chosen for the logo because it is distinctive and recognisable with good legibility. 
+        * Montserrat was chosen for all other text throughout the site. It is a familiar font with good legibility.
+        * I imported these fonts using Google Fonts.
         * Arial was chosen as a fallback font. 
     * Imagery
         * The landing page image was chosen to be attractive, recognisable and inkeeping with the theme of the site. The symmetry and calmness of the image make it appealing to look at.
