@@ -40,10 +40,7 @@ By Helen Murugan
 
     * As a Returning Visitor I want:
         1. To make contact with Future Fuels.
-
-    * As a Frequent User I want:
-        1. To check the site for any new information such as blog posts, partners, case studies or testimonials.
-        1. To be able to recommend the site to other users.
+        1. To find out more information about Future Fuels before making contact.
 
 * ### Design
     * Colour Scheme
@@ -122,7 +119,7 @@ During the planning stage, I used Balsamiq to create wireframes for each page, a
         * A heading with a statistic to grab the users attention.
         * An image.
         * A short description of the technology.
-        * Lists of pros and cons, these are particularly valuable to the user as they describe when the technology can and cant be used in each case.
+        * Lists of pros and cons, these are particularly valuable to the user as they describe when the technology can and can't be used in each case.
 
 ![Image of hydrogen page](documentation/hydrogen-page.jpg)
 ![Image of hydrogen page](documentation/hydrogen-lists.jpg)
@@ -130,15 +127,14 @@ During the planning stage, I used Balsamiq to create wireframes for each page, a
 * ### Contact Us Page
     * The Contact Us page consists of a heading which encourages the user to fill in a form to receive back a free discovery call.
     * The form consists of input fields for first name, last name, email address, organisation, a message and a submit button.
-    * This page is valuable to users as it provides a way to learn more about Future Fuels.
+    * This page is valuable to users as it provides a way to contact Future Fuels.
 
 ![Image of form on Contact Us page](documentation/contact-us.jpg)
 
 * ### Features Left to Implement
-Subsequent versions of this site could include
     * The logos of partners that Future Fuels work with.
-    * Blog posts
-    * It would be nice to have animated testimonials which slide into the screeen from the side.
+    * The footer could include more information such as opening hours and address.
+    * Animated testimonials which slide into the screeen from the side.
 
 ## Technologies Used
 * ### Languages Used
@@ -153,7 +149,6 @@ Subsequent versions of this site could include
     5. Balsamiq
 
 ## Testing
-
 * ### Validator Testing
     * HTML 
         * No errors were returned when validating the code with the official W3C validator.
@@ -165,7 +160,6 @@ Subsequent versions of this site could include
 ![Image of Lighthouse results showing green scores for accessibility](documentation/lighthouse.jpg)
 
 * ### Testing User Stories from User Experience (UX) Section
-
 * #### First Time Visitor Goals
     1. As a First Time Visitor, I want to understand the main purpose of the site and what services Future Fuels offer.
         * Upon entering the site, users are greeted with a landing image and cover text describing what Future Fuels can offer to businesses.
@@ -186,13 +180,8 @@ Subsequent versions of this site could include
     1. As a Returning Visitor I want to make contact with Future Fuels.
         * Business users are more likely to contact a company on a return visit to the site.
         * A Contact Us page is clearly visible on the navigation links with an opportunity to fill in a form for a call back.
-    1. As a Returning Visitor I want to find out more information about Future Fuels.
+    1. As a Returning Visitor I want to find out more information about Future Fuels before making contact.
         * As there is a lot of information on the site, users may return multiple times, if they dont have time to read it on their first visit.
-
-* #### Frequent User Goals
-    1. As a Frequent User I want to check the site for any new information such as blog posts, partners, case studies or testimonials.
-        1. To be able to recommend the site to other users.
-
 
 * ### Fixed Bugs
     * After deployment I noticed that the favicon was not working (it did work before delpoyment). This was fixed by removing '/' from the start of the absolute filepath.
