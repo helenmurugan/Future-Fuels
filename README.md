@@ -180,6 +180,7 @@ During the planning stage, I used Balsamiq to create wireframes for each page, a
     1. As a Returning Visitor I want to make contact with Future Fuels.
         * Business users are more likely to contact a company on a return visit to the site.
         * A Contact Us page is clearly visible on the navigation links with an opportunity to fill in a form for a call back.
+        * On submission of the form, the user is directed to a page thanking them for getting in touch. From here, they can use the navigation links to return to the main site.
     1. As a Returning Visitor I want to find out more information about Future Fuels before making contact.
         * As there is a lot of information on the site, users may return multiple times, if they dont have time to read it on their first visit.
 
