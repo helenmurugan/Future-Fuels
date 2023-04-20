@@ -9,7 +9,7 @@ By Helen Murugan
 ![Image showing screenshots on different sized devices](documentation/screen-generator.jpg)
 
 ## Project Goals
-* Future Fuels is a site that offers a consultancy service to businesses who need to reduce their emissions from road transport. New legislation banning the sale of petrol and diesel vehicles will provide a challenge to businesses who need to choose between and transition to new fuel technologies for entire fleets of vehicles, the impacts of which may not be well-understood bus include cost, refuelling infrastructure, refuel time etc. Future Fuels is a B2B site which offers a solution to this problem. 
+* Future Fuels is a site that offers a consultancy service to businesses who need to reduce their emissions from road transport. New legislation banning the sale of petrol and diesel vehicles will provide a challenge to businesses who need to choose between and transition to new fuel technologies for entire fleets of vehicles, the impacts of which may not be well-understood. Future Fuels is a B2B site which offers a solution to this problem. 
 
 * The site provides a short description of why this service is needed, basic information on the main alternatives to conventional fuels and the pros and cons that exist for each technology. There is also an opportunity to contact Future Fuels for more information about the services provided. The site consists of five pages (Home, Batteries, Biofuels, Hydrogen, Contact Us), an additional page for feedback after submission of the contact form and also a 404 page.
 
@@ -59,7 +59,7 @@ During the planning stage, I used Balsamiq to create wireframes for each page, a
 ## Features
 
 * ### Navigation
-    * Featured at the top of all five pages for intuitive navigation
+    * Featured at the top of all five pages for intuitive navigation.
     * Includes the Future Fuels logo that links to the home page, as well as links to pages for Batteries, Biofuels, Hydrogen and Contact Us.
     * The navigation bar is fully responsive. At large screen sizes the links are clickable page titles. For medium and small screen sizes a hamburger menu is used.
     * The navigation bar makes it easy for users to navigate around the site without using the back button on the web browser.
@@ -69,23 +69,23 @@ During the planning stage, I used Balsamiq to create wireframes for each page, a
 
 * ### The Landing Page Image
     * The landing page includes a photograph with text overlay to allow the user to see a statement of purpose. 
-    * Users will immediately understand where they have come and what Future Fuels provides.
+    * Users will immediately understand where they have come and what Future Fuels can provide.
     
 ![landing image](documentation/landing-image.jpg)
 
 * ### Why Future Fuels Section
     * This section briefly describes a problem that businesses will face in the near future. 
-    * It lays out in simple terms how Future Fuels can provide a solution to this problem.
+    * It lays out in simple terms how Future Fuels can provide a solution to this problem which could benefit the user.
 
  * ### Fuel Requirements Section
     * This section uses a flexbox, icons and headings to provide a simple infographic which demonstrates the important factors when considering new fuels. 
-    * This is followed by a paragraph which explains what Future Fuels can provide to the user.
+    * This is followed by a paragraph with important points styled in bold to highlight the benefits of using Future Fuels services.
 
 * ### Testimonials
     * This section shows two styled testimonials which give the user confidence in the brand.
 
 * ### Footer
-    * This section provides links to Future Fuels social media pages to allow the user to stay connected.
+    * This section provides links to Future Fuels social media pages to allow the user to stay connected with and find out more information about the brand.
     * The links will open to a new tab to allow easy navigation for the user.
     * The footer is identical across all five pages.
 
@@ -103,12 +103,12 @@ During the planning stage, I used Balsamiq to create wireframes for each page, a
     * These pages are valuable to users as they introduce new information in an intuitive and understandable way.
     * They consist of four sections
         * A heading with a statistic to grab the users attention.
-        * An image.
+        * An image of the alternative fuel being used in a vehicle.
         * A short description of the technology.
-        * Lists of pros and cons, these are particularly valuable to the user as they describe when the technology can and can't be used in each case.
+        * Lists of pros and cons, which are particularly valuable in helping the user understand whether that fuel is right for them.
 
 * ### Contact Us Page
-    * The Contact Us page consists of a heading which encourages the user to fill in a form to receive back a free discovery call.
+    * The Contact Us page consists of a heading which encourages the user to fill in a form to receive a free discovery call.
     * The form consists of input fields for first name, last name, email address, organisation, a message and a submit button.
     * This page is valuable to users as it provides a way to contact Future Fuels.
 
@@ -116,8 +116,8 @@ During the planning stage, I used Balsamiq to create wireframes for each page, a
 
 * ### Features Left to Implement
     * The logos of partners that Future Fuels work with.
-    * The footer could include more information such as opening hours and address.
-    * Animated testimonials which slide into the screeen from the side.
+    * The footer could include more information such as opening hours and business address.
+    * Animated testimonials which slide into the screen from the side.
 
 ## Technologies Used
 * ### Languages Used
@@ -138,11 +138,12 @@ During the planning stage, I used Balsamiq to create wireframes for each page, a
     * CSS 
         * No errors were returned when validating the code with the official (Jigsaw) validator.
     * Accessibility
-        * I confirmed that the fonts and colours are easy to read. I used Lighthouse in DevTools to confirm that every page scores well for accessibility.
+        * I confirmed that the fonts and colours are easy to read. 
+        * I used Lighthouse in DevTools to confirm that every page scores well for accessibility.
 
 ![Image of Lighthouse results showing green scores for accessibility](documentation/lighthouse.jpg)
 
-* ### Testing User Stories from User Experience (UX) Section
+* ### Testing User Stories from the User Experience (UX) Section
 * #### First Time Visitor Goals
     1. As a First Time Visitor, I want to understand the main purpose of the site and what services Future Fuels offer.
         * Upon entering the site, users are greeted with a landing image and cover text describing what Future Fuels can offer to businesses.
@@ -153,7 +154,7 @@ During the planning stage, I used Balsamiq to create wireframes for each page, a
         * The site has been designed with intuitive navigation in mind. The navigation menus look the same on every page and each link clearly describes what the page is about. 
         * As standard, the logo also acts as a link back to to the home page.
     1. As a First Time Visitor, I want to learn more about alternative fuel options.
-        * The site contains three pages with useful information on the three alternative fuel options for road transport. The content and styling of the information has been designed to keep the users attention.
+        * The site contains three pages with useful information on three alternative fuel options for road transport. The content and styling of the information has been designed to keep the users attention.
     1. As a First Time Visitor, I want to understand where I can find out more information about Future Fuels.
         * Every page contains a footer with navigation links to the relevant social media sites, which open in a new tab.
     1. As a First Time Visitor, I want to understand where I can contact Future Fuels.
@@ -161,11 +162,10 @@ During the planning stage, I used Balsamiq to create wireframes for each page, a
 
 * #### Returning Visitor Goals
     1. As a Returning Visitor I want to make contact with Future Fuels.
-        * Business users are more likely to contact a company on a return visit to the site.
-        * A Contact Us page is clearly visible on the navigation links with an opportunity to fill in a form for a call back.
-        * On submission of the form, the user is directed to a page thanking them for getting in touch. From here, they can use the navigation links to return to the main site.
+        * Business users may be more likely to contact a company on a return visit to the site.
+        * On submission of the Contact Us form, the user is directed to a page thanking them for getting in touch. From here, they can use the navigation links to return to the main site.
     1. As a Returning Visitor I want to find out more information about Future Fuels before making contact.
-        * As there is a lot of information on the site, users may return multiple times, if they dont have time to read it on their first visit.
+        * As there is a lot of information on the site, users may return multiple times, if they dont have time to read all the relevant information on their first visit.
 
 * ### Fixed Bugs
     * After deployment I noticed that the favicon was not working (it did work before delpoyment). This was fixed by removing '/' from the start of the absolute filepath.
@@ -177,13 +177,19 @@ During the planning stage, I used Balsamiq to create wireframes for each page, a
 
 * ### Further Testing
     * The site has been tested and works well in different browsers: Chrome, Microsoft Edge, Internet Explorer and Safari.
-    * DevTools device toolbar was used to ensure the site is fully responsive and looks good across different screen sizes. 
-    * Media queries were added to the following features, where I could see features becoming squashed as the screen size got smaller. I have tested that features are all readable and easy to understand.
-        * Navigation menu (hamburger appears at 1299px and below and page title navigation links are hidden).
-        * Width of headings, images and paragraphs is increased for smaller screen sizes (incrementally at 1299 px and 700 px and below).
-        * Font size for all text is reduced for screen sizes at 700px and below. 
-        * Flexbox is reduced to two columns for screen sizes at 700px and below. 
-    * The form has been tested and requires inputs in all fields, except for the message textarea which is optional. The email address field will only accept an email address. The contact number field will accept numbers of a minimum length of 11 digits. The submit button works and links to a thanks.html page, thanking the user for getting in touch.
+    * Media queries were added to the following features and tested to ensure the site is fully responsive.
+        * Navigation menu.
+        * Width of headings, images and paragraphs.
+        * Font size.
+        * Flexbox showing fuel requirements icons.
+    * DevTools device toolbar was used to ensure the site is fully responsive and looks good across different screen sizes.
+    * After deployment, the site was tested on a range of different devices - mobile phone, tablet, laptop and desktop.
+    * The form has been tested and requires inputs in all fields. 
+        * The email address field will only accept an email address. 
+        * The contact number field will only accept numbers of a minimum length of 11 digits. 
+        * The submit button works only when required fields have been filled.
+        * The submit button works and links to a thanks.html page.
+    * The 404 page appears when an incorrect URL is used.
 
 ## Deployment
 * The site was deployed to GitHub pages by the following steps:
@@ -197,8 +203,8 @@ During the planning stage, I used Balsamiq to create wireframes for each page, a
 
 ## Credits
 * Content
-    * The code for the social media links in the footer was taken from the Code Institute Love Running project.
     * The code for the cover text styled over the landing image was taken from the Code Institute Love Running Project.
+    * The code for the social media links in the footer was taken from the Code Institute Love Running project.
     * The code for the hamburger menu using only HTML and CSS was taken from https://dev.to/ljcdev/hamburger-css-no-js-2dfa
     * I would like to thank my mentor Victor Miclovich for his excellent advice and guidance during the development of this project.
 * Media
