@@ -77,18 +77,12 @@ During the planning stage, I used Balsamiq to create wireframes for each page, a
     * This section briefly describes a problem that businesses will face in the near future. 
     * It lays out in simple terms how Future Fuels can provide a solution to this problem.
 
-![Image of Why Future Fuels section](documentation/why-future-fuels.jpg)
-
  * ### Fuel Requirements Section
     * This section uses a flexbox, icons and headings to provide a simple infographic which demonstrates the important factors when considering new fuels. 
     * This is followed by a paragraph which explains what Future Fuels can provide to the user.
 
-![Image of Why Future Fuel REquirements section](documentation/fuel-requirements.jpg)
-
 * ### Testimonials
     * This section shows two styled testimonials which give the user confidence in the brand.
-
-![Image of Testimonials](documentation/testimonials.jpg)
 
 * ### Footer
     * This section provides links to Future Fuels social media pages to allow the user to stay connected.
