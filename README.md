@@ -1,25 +1,17 @@
 # Future Fuels
 
-![Image showing screenshots on different sized devices](documentation/screen-generator.jpg)
-
 By Helen Murugan
 
 [View the live site here](https://helenmurugan.github.io/future-fuels/)
 
-## Introduction
 * This document describes the development process for Future Fuels website. It is for educational purposes only, as my first milestone project for a Diploma in Full Stack Software Development (E-Commerce Applications) with Code Institute, using frontend user-centric development with HTML and CSS.
 
-* Future Fuels is a site that offers a service to businesses who need to reduce their emissions from road transport. It is a B2B site which offers a solution to a real-world problem. To the best of my knowledge, this type of business does not already exist. Other consultancies exist which offer a wide range of services but not specifically to reduce emissions from road transport.
-
-* The site provides a short description of why this service is needed, basic information on the main alternatives to conventional fuels and the pros and cons that exist for each technology, as well as what services Future Fuels can provide to the user. There is an opportunity to contact Future Fuels for more information about the services provided.
-
+![Image showing screenshots on different sized devices](documentation/screen-generator.jpg)
 
 ## Project Goals
-* ### Site Rationale
-    * New legislation banning the sale of petrol and diesel vehicles will provide a challenge to businesses who need to choose between and transition to new fuel technologies for entire fleets of vehicles, the impacts of which may not be well-understood bus include cost, refuelling infrastructure, refuel time etc.
+* Future Fuels is a site that offers a consultancy service to businesses who need to reduce their emissions from road transport. New legislation banning the sale of petrol and diesel vehicles will provide a challenge to businesses who need to choose between and transition to new fuel technologies for entire fleets of vehicles, the impacts of which may not be well-understood bus include cost, refuelling infrastructure, refuel time etc. Future Fuels is a B2B site which offers a solution to this problem. 
 
-    * Future Fuels addresses this problem by providing consultancy to businesses who need to find cost-effective fuel strategies that suit their business requirements.
-
+* The site provides a short description of why this service is needed, basic information on the main alternatives to conventional fuels and the pros and cons that exist for each technology. There is also an opportunity to contact Future Fuels for more information about the services provided. The site consists of five pages (Home, Batteries, Biofuels, Hydrogen, Contact Us), an additional page for feedback after submission of the contact form and also a 404 page.
 
 * ### Target Audience
     * The intended audience are businesses who have fleets of road transport vehicles. Examples of such businesses include: 
@@ -42,24 +34,24 @@ By Helen Murugan
         1. To make contact with Future Fuels.
         1. To find out more information about Future Fuels before making contact.
 
-* ### Design
-    * Colour Scheme
-        * The following colours were chosen as the primary colours for the site, and are consistent throughout. The green colour is inkeeping with the "green" theme of the site.
-            * olivedrab #6b8e23
-            * light green #edf8da
-            * dark grey #3a3a3a
-        * A simple grey text on white background was chosen to appeal to a business audience.
-        * Secondary colours were chosen as green, red and blue and appear only in the icons and images.
-    * Typography
-        * MuseoModerno was chosen for the logo because it is distinctive and recognisable with good legibility. 
-        * Montserrat was chosen for all other text throughout the site. It is a familiar font with good legibility.
-        * I imported these fonts using Google Fonts.
-        * Arial was chosen as a fallback font. 
-    * Imagery
-        * The landing page image was chosen to be attractive, recognisable and inkeeping with the theme of the site. The symmetry and calmness of the image make it appealing to look at.
-        * The colours in all images are inkeeping with the colour palette of the site. 
+## Design
+* Colour Scheme
+    * The following colours were chosen as the primary colours for the site, and are consistent throughout. The green colour is inkeeping with the "green" theme of the site.
+        * olivedrab #6b8e23
+        * light green #edf8da
+        * dark grey #3a3a3a
+    * A simple grey text on white background was chosen to appeal to a business audience.
+    * Secondary colours were chosen as green, red and blue and appear only in the icons and images.
+* Typography
+    * MuseoModerno was chosen for the logo because it is distinctive and recognisable with good legibility. 
+    * Montserrat was chosen for all other text throughout the site. It is a familiar font with good legibility.
+    * I imported these fonts using Google Fonts.
+    * Arial was chosen as a fallback font. 
+* Imagery
+    * The landing page image was chosen to be attractive, recognisable and inkeeping with the theme of the site. The symmetry and calmness of the image make it appealing to look at.
+    * The colours in all images are inkeeping with the colour palette of the site.
 
-* ### Wireframes
+## Wireframes
 During the planning stage, I used Balsamiq to create wireframes for each page, and plan the structure of the site.
 
 ![Image of home page wireframe](documentation/landing-page-wireframe.jpg)
@@ -120,9 +112,6 @@ During the planning stage, I used Balsamiq to create wireframes for each page, a
         * An image.
         * A short description of the technology.
         * Lists of pros and cons, these are particularly valuable to the user as they describe when the technology can and can't be used in each case.
-
-![Image of hydrogen page](documentation/hydrogen-page.jpg)
-![Image of hydrogen page](documentation/hydrogen-lists.jpg)
 
 * ### Contact Us Page
     * The Contact Us page consists of a heading which encourages the user to fill in a form to receive back a free discovery call.
@@ -186,8 +175,8 @@ During the planning stage, I used Balsamiq to create wireframes for each page, a
 
 * ### Fixed Bugs
     * After deployment I noticed that the favicon was not working (it did work before delpoyment). This was fixed by removing '/' from the start of the absolute filepath.
-    * Before deployment I noticed that the title bar was not spanning the full width of the page on smaller screen sizes, I could see a white space on the right-side of the title bar. To find a solution, I commented out each of the CSS media queries until I found the style rule that was causing the problem. It turned out to be the style rule for width (width: 100%;) of the title and paragraph below. When I changed this to a width of 95% the problem was fixed.
-    * Before deployment I noticed that sometimes the hamburger menu would be partially or fully obstructed by the browser scroll bar in DevTools. I fixed this by moving the hamburger icon further to the left using CSS.
+    * Before deployment I noticed that the title bar was not spanning the full width of the page on smaller screen sizes, I could see a white space on the right-side of the title bar. To find a solution, I commented out each of the CSS media queries until I found the style rule that was causing the problem. It turned out to be the style rule for width (width: 100%;) of the title and paragraph below. When I changed this to a width of 95% the problem was fixed. However, the same bug later returned (after I tried to adjust the width again) except this time the same fix didnt work. I had to remove the style rule in the media query completely to correct the problem.
+    * Before deployment I noticed that sometimes the hamburger menu would obstruct the text on smaller screen sizes. To fix this problem I made the width of the text narrower to clear the hamburger icon.
 
 * ### Unfixed Bugs
     * There are no unfixed bugs
