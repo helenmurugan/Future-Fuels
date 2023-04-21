@@ -11,7 +11,7 @@ By Helen Murugan
 ## Project Goals
 * Future Fuels is a site that offers a consultancy service to businesses who need to reduce their emissions from road transport. New legislation banning the sale of petrol and diesel vehicles will provide a challenge to businesses who need to choose between and transition to new fuel technologies for entire fleets of vehicles, the impacts of which may not be well-understood. Future Fuels is a B2B site which offers a solution to this problem. 
 
-* The site provides a short description of why this service is needed, basic information on the main alternatives to conventional fuels and the pros and cons that exist for each technology. There is also an opportunity to contact Future Fuels for more information about the services provided. The site consists of five pages (Home, Batteries, Biofuels, Hydrogen, Contact Us), an additional page for feedback after submission of the contact form and also a 404 page.
+* The site provides a short description of why this service is needed, basic information on the main alternatives to conventional fuels and the pros and cons that exist for each technology. There is also an opportunity to contact Future Fuels for more information about the services provided. The site consists of five pages (Home, Batteries, Biofuels, Hydrogen and Contact Us), an additional page for feedback after submission of the contact form and also a 404 page.
 
 * ### Target Audience
     * The intended audience are businesses who have fleets of road transport vehicles. Examples of such businesses include: 
@@ -85,7 +85,7 @@ During the planning stage, I used Balsamiq to create wireframes for each page, a
     * This section shows two styled testimonials which give the user confidence in the brand.
 
 * ### Footer
-    * This section provides links to Future Fuels social media pages to allow the user to stay connected with and find out more information about the brand.
+    * This section provides links to Future Fuels social media pages to allow the user to stay connected and find out more information about the brand.
     * The links will open to a new tab to allow easy navigation for the user.
     * The footer is identical across all five pages.
 
@@ -186,7 +186,7 @@ During the planning stage, I used Balsamiq to create wireframes for each page, a
     * After deployment, the site was tested on a range of different devices - mobile phone, tablet, laptop and desktop.
     * The form has been tested and requires inputs in all fields. 
         * The email address field will only accept an email address. 
-        * The contact number field will only accept numbers of a minimum length of 11 digits. 
+        * The contact number field will only accept numbers with a minimum of 11 digits. 
         * The submit button works only when required fields have been filled.
         * The submit button works and links to a thanks.html page.
     * The 404 page appears when an incorrect URL is used.
@@ -202,15 +202,19 @@ During the planning stage, I used Balsamiq to create wireframes for each page, a
     7. After several minutes the live site was deployed [here](https://helenmurugan.github.io/future-fuels/)
 
 ## Credits
-* Content
+* Code
     * The code for the cover text styled over the landing image was taken from the Code Institute Love Running Project.
     * The code for the social media links in the footer was taken from the Code Institute Love Running project.
     * The code for the hamburger menu using only HTML and CSS was taken from https://dev.to/ljcdev/hamburger-css-no-js-2dfa
-    * I would like to thank my mentor Victor Miclovich for his excellent advice and guidance during the development of this project.
 * Media
     * The landing page image was taken from [Pexels](https://www.pexels.com/)
     * The images on Batteries, Biofuels and Hydrogen pages were taken from [iStock](https://www.istockphoto.com)
+* Content
     * The statistics in the page headings for Batteries, Biofuels and Hydrogen were taken from (https://www.acea.auto/), https://www.eea.europa.eu/ and  https://www.euractiv.com/.
+    * All other content was written by the developer.
+* Acknowledgements
+    * I would like to thank my mentor Victor Miclovich for his excellent advice and guidance during the development of this project.
+    * I would like to thank Tutor Support at Code Institute for their support.
 
 
 
